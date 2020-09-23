@@ -64,7 +64,7 @@ namespace Coop.Business
                 Console.WriteLine($"---- Cycle {cycle} Results End----\r\n");
             }
             Console.WriteLine($"*** End of the {cycles} result ***");
-            Console.WriteLine($"{totalNewBornFemale} females, {totalNewBornMale} males borned and {totaldeaths} member death. \r\n Current Population: {animals.Count}");
+            Console.WriteLine($"{totalNewBornFemale} females, {totalNewBornMale} males were born and {totaldeaths} member died. \r\n Current Population: {animals.Count}");
         }
 
         public (int newBornMale, int newBornFemale, List<int> deaths) ProcessAnimalGroup(List<Animal> animals, bool increaseAge)
